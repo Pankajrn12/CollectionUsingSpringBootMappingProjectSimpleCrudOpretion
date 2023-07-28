@@ -2,13 +2,15 @@ package com.simpleProject.simpleProjectCrudeOpretion.models;
 
 import lombok.Data;
 
+import java.util.Deque;
+import java.util.List;
+import java.util.Queue;
 import java.util.Set;
 
 @Data
 public class CourseModel {
-    private long courseId;
+    private Long courseId;
     private String courseName;
-    private String courseDuration;
     private String coursePrice;
-    private Set<StudentModel> studentModels;
+    private List<StudentModel> studentModels;
 }
